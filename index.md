@@ -1,4 +1,3 @@
 ---
-title: Redirecionamento para o site Oficial
-redirect_to: https://popsolutions.co/openventilator
+title: Makers Vs CoViD-19/SARS-CoV-2
 ---
