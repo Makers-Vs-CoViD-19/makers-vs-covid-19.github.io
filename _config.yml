@@ -1,0 +1,146 @@
+
+title: Makers VS CoViD-19
+
+locale: pt_BR
+lang: pt_BR
+charset: utf-8
+encoding: utf-8
+baseurl: ""
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    category: '/:name/'
+    tag: '/tag/:name/'
+
+excerpt_separator: <!--more-->
+
+google:
+   analytics:
+      id: GA
+      domain:
+   adsense:
+      client: ca-pub-
+      slot: 1
+
+
+facebook:
+  app_id: 1
+  admins: a
+  publisher: a
+  uselogin: false
+  scope: [user_friends, email]
+  wellcomemsg: "Olá "
+
+
+testimonial:
+  itens: 6
+  truncate: 350
+
+sass:
+   sass_dir: _sass
+   style: compressed
+
+permalink: /:categories/:title/
+
+social:
+  name: a
+  links: a
+
+
+webmaster_verifications:
+  google_site: a
+  google: google
+  bing: a
+
+carousel:
+  testimonial:
+    paginationSpeed: 500
+    singleItem: true
+    autoPlay: 3000
+    stopOnHover: true
+    responsive: true
+
+keep_files:
+  - "CNAME"
+
+compress_html:
+  enable: false
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: [local]
+  blanklines: true
+  profile: true
+  only_local_profile: true
+
+resolvermaps:
+  enable: true
+  size: 201
+  font: arial
+  id: a
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+ - jekyll-github-metadata
+ - jekyll-feed
+ - jekyll-gist
+ - jekyll-paginate
+ - jekyll-sitemap
+ - jekyll-mentions
+ - jekyll-coffeescript
+ - jekyll-redirect-from
+ - jekyll-sass-converter
+ - jekyll-seo-tag
+ - jekyll-archives
+ - jekyll-jupyter-notebook
+ - kramdown
+ - liquid
+ - rouge
+ - pygments
+ - jemoji
+ - sass
+ - safe_yaml
+
+exclude:
+  - .forestry
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "LICENSE.md"
+  - "pdf/"
+  - "suporte-geral/"
+  - "script/"
+  - "vendor"
+  - "lib"
+  - "config.rb"
+  - ".sass-cache"
+  - "Capfile"
+  - "config"
+  - "log"
+  - "Rakefile"
+  - "Rakefile.rb"
+  - "tmp"
+  - "_tmp"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - "node_modules"
+  - "Gruntfile.js"
+  - "package.json"
+  - "_backup/"
+  - "*.bck"
+  - "*.tmp"
+  - "/*.bck/"
+  - "/*.tmp/"
+  - ".git"
+  - ".git*"
+  - "fonts/ionicons/"
+  - "fonts/fontawesome/"
+  - "fonts/fontawesome-free-5.0.13/"
+  - "fonts/fontawesome-free-5.0.13.zip"
