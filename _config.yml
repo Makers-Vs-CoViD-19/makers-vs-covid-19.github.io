@@ -1,12 +1,32 @@
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-title: Makers VS CoViD-19
+# Site Settings
+title: "Makers VS CoViD-19 and SARS-CoV-2"
+title_separator          : "-"
+subtitle                 : "We All Makers" # site tagline that appears below site title in masthead
+name                     : "Makers"
+description              : "Makers Vs CoVid-19 and SARS-CoV-2"
+url                      : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/" # the subpath of your site, e.g. "/blog"
+repository               : "makers-vs-covid-19/makers-vs-covid-19.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/sars-cov-2_600x300.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/sars-cov-2_300x260.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 
 locale: pt_BR
 lang: pt_BR
 charset: utf-8
 encoding: utf-8
-baseurl: ""
 
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 jekyll-archives:
   enabled:
     - categories
@@ -15,46 +35,160 @@ jekyll-archives:
   permalinks:
     category: '/:name/'
     tag: '/tag/:name/'
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 excerpt_separator: <!--more-->
 
+masthead_title           : "Makers VS CoViD-19 and SARS-CoV-2" # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs            : true # true, false (default)
+words_per_minute         : 200
+comments:
+  provider               : false # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+search                   : true # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
 google:
-   analytics:
-      id: GA
-      domain:
-   adsense:
-      client: ca-pub-
-      slot: 1
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
 
-
+# Social Sharing
+twitter:
+  username               :
 facebook:
-  app_id: 1
-  admins: a
-  publisher: a
-  uselogin: false
-  scope: [user_friends, email]
-  wellcomemsg: "Olá "
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : "Organization" # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
+
+
+# Site Author
+author:
+  name             : "All Makers"
+  avatar           : "/assets/images/we-all-makers.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : ""
+  location         : "Global"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: mailto:your.name@email.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url:
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:
 
 
 testimonial:
   itens: 6
   truncate: 350
 
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+
+# Sass/SCSS
 sass:
-   sass_dir: _sass
-   style: compressed
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+
+# Outputting
 permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/Fortaleza # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-social:
-  name: a
-  links: a
-
-
-webmaster_verifications:
-  google_site: a
-  google: google
-  bing: a
 
 carousel:
   testimonial:
@@ -71,10 +205,12 @@ compress_html:
   enable: false
   comments: ["<!-- ", " -->"]
   ignore:
-    envs: [local]
+    envs: [local, development]
   blanklines: true
   profile: true
   only_local_profile: true
+  clippings: all
+
 
 resolvermaps:
   enable: true
@@ -85,9 +221,25 @@ resolvermaps:
 # Build settings
 markdown: kramdown
 highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Plugins (previously gems:)
 plugins:
- - jekyll-github-metadata
+ - jekyll-include-cache
  - jekyll-feed
  - jekyll-gist
  - jekyll-paginate
@@ -102,10 +254,29 @@ plugins:
  - kramdown
  - liquid
  - rouge
- - pygments
  - jemoji
  - sass
  - safe_yaml
+
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Reading Files
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+include:
+  - .htaccess
+  - _pages
 
 exclude:
   - .forestry
@@ -144,3 +315,31 @@ exclude:
   - "fonts/fontawesome/"
   - "fonts/fontawesome-free-5.0.13/"
   - "fonts/fontawesome-free-5.0.13.zip"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+
+
