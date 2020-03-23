@@ -4,7 +4,7 @@ categories: [Duvidas]
 tags: [Github, Jekyll, Colaboração, FAQ]
 ---
 
-Para colaborar com este site não precisa ter conhecimentos na ferramenta GID como muitos pensam, veja abaixo detalhes
+Para colaborar com este site não precisa ter conhecimentos na ferramenta GIT como muitos pensam, veja abaixo detalhes.
 
 <!--more-->
 
