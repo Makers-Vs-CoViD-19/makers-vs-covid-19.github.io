@@ -42,8 +42,6 @@ tag_archive:
   type: liquid
   path: /tags/
 
-excerpt_separator: <!--more-->
-
 masthead_title           : "Makers VS CoViD-19 and SARS-CoV-2" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
@@ -222,7 +220,7 @@ resolvermaps:
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: "<!--more-->"
 incremental: false
 
 
