@@ -23,5 +23,8 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'sass'
   gem 'safe_yaml'
+  gem 'tzinfo'
+#  gem 'tzinfo-data'
+  gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 #  gem 'jekyll-livereload'
  end
