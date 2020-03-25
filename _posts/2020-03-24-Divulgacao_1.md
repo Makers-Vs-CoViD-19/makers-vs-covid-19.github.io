@@ -28,10 +28,11 @@ E- contato com fornecedores de circuitos ventilatórios e conexões
 F- Instrumental de monitorização da ventilação no leito, dado que nosso ventilador é cego
 G- contato com produtores, distribuidores de HELMETs e máscaras
 H- etc”
+
 Voluntários devem entrar no grupo público 
-COVID-19 Air BRASIL - Fast production of assisted ventilation devices
-Lá espero que vocês consigam se aglutinar grupos menores específicos, skipe, email, whatsapp etc. para cuidar desses diferentes pontos ou outros que surgirem.
-https://m.facebook.com/story.php?story_fbid=3042980365746620&id=100001040600047
+
+[COVID-19 Air BRASIL - Fast production of assisted ventilation devices](https://m.facebook.com/story.php?story_fbid=3042980365746620&id=100001040600047
+) Lá espero que vocês consigam se aglutinar grupos menores específicos, skipe, email, whatsapp etc. para cuidar desses diferentes pontos ou outros que surgirem.
 
 
 A COPPE/UFRJ pede voluntários para contactar as indústrias para ajudar no desenvolvimento de aparelhos de ventilação simples e baratos no Brasil. Em questão de dias!
