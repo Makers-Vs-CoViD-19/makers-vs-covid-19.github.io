@@ -111,7 +111,7 @@ analytics:
 author:
   name             : "All Makers"
   avatar           : "/assets/images/we-all-makers.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
+  bio              : "Somos todos makers, não importa sua formação, quando pega e coloca a mão para fazer se torna um Maker."
   location         : "Global"
   email            :
   links:
@@ -145,7 +145,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: https://github.com/Makers-Vs-CoViD-19/StartPoint
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
