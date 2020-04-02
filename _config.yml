@@ -6,7 +6,6 @@ title_separator          : "-"
 subtitle                 : "We All Makers" # site tagline that appears below site title in masthead
 name                     : "Makers"
 description              : "Makers Vs CoVid-19 and SARS-CoV-2"
-url                      : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "makers-vs-covid-19/makers-vs-covid-19.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/sars-cov-2_600x300.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
